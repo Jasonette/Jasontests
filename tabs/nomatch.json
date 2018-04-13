@@ -1,0 +1,20 @@
+{
+  "$jason": {
+    "head": {
+      "title": "The 1st tab URL doesn't match the current url"
+    },
+    "body": {
+      "footer": {
+        "tabs": {
+          "items": [{
+            "text": "Tab1",
+            "url": "https://jasonbase.com/things/VJop"
+          }, {
+            "text": "Tab2",
+            "url": "https://jasonbase.com/things/VJop"
+          }]
+        }
+      }
+    }
+  }
+}

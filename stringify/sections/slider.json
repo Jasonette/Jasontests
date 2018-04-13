@@ -1,0 +1,17 @@
+{
+  "$jason": {
+    "body": {
+      "sections": [{
+        "items": [{
+          "type": "slider", "value": 0.8, "name": "s",
+          "action": {
+            "type": "$util.banner",
+            "options": {
+              "description": "{{$get.s}}"
+            }
+          }
+        }]
+      }]
+    }
+  }
+}

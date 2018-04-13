@@ -1,0 +1,18 @@
+{
+  "$jason": {
+    "head": {
+      "title": "The tabs don't have a URL"
+    },
+    "body": {
+      "footer": {
+        "tabs": {
+          "items": [{
+            "text": "Tab1"
+          }, {
+            "text": "Tab2"
+          }]
+        }
+      }
+    }
+  }
+}

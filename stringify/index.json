@@ -1,0 +1,69 @@
+{
+  "$jason": {
+    "head": {
+      "data": {
+        "files": [{
+          "name": "footer",
+          "items": [
+            "footer/input_right_boolean.json",
+            "footer/input_right_number.json",
+            "footer/input_textfield_placeholder_boolean.json",
+            "footer/input_textfield_placeholder_number.json",
+            "footer/tabs_badge_boolean.json",
+            "footer/tabs_badge_number.json",
+            "footer/tabs_text_boolean.json",
+            "footer/tabs_text_number.json"
+          ]
+        }, {
+          "name": "header",
+          "items": [
+            "header/boolean_title.json",
+            "header/number_title.json",
+            "header/dict_title.json",
+            "header/menu_badge_text_boolean.json",
+            "header/menu_badge_text_number.json",
+            "header/menu_text_number.json",
+            "header/menu_text_boolean.json",
+            "header/simple_boolean_title.json",
+            "header/simple_number_title.json"
+          ]
+        }, {
+          "name": "layers",
+          "items": [
+            "layers/label_text_boolean.json",
+            "layers/label_text_dict.json",
+            "layers/label_text_number.json"
+          ]
+        }, {
+          "name": "sections",
+          "items": [
+            "sections/html.json",
+            "sections/index.json",
+            "sections/map.json",
+            "sections/slider.json",
+            "sections/switch.json"
+          ]
+        }]
+      },
+      "templates": {
+        "body": {
+          "sections": {
+            "{{#each files}}": {
+              "header": {
+                "type": "label", "text": "{{name}}"
+              },
+              "items": {
+                "{{#each items}}": {
+                  "type": "label", "text": "{{this}}",
+                  "href": {
+                    "url": "{{$root.$env.view.url.replace('index.json', '')}}/{{this}}"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

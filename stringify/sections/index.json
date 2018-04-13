@@ -1,0 +1,48 @@
+{
+  "$jason": {
+    "body": {
+      "sections": [{
+        "header": {
+          "type": "label", "text": "number"
+        },
+        "items": [{
+          "type": "label", "text": 1
+        }, {
+          "type": "button", "text": 2
+        }, {
+          "type": "textfield", "name": "textfield", "value": 3
+        }, {
+          "type": "textarea", "name": "textarea", "value": 4
+        }]
+      }, {
+        "header": {
+          "type": "label", "text": "boolean"
+        },
+        "items": [{
+          "type": "label", "text": true
+        }, {
+          "type": "button", "text": false
+        }, {
+          "type": "textfield", "name": "textfield2", "value": true
+        }, {
+          "type": "textarea", "name": "textarea2", "value": false
+        }]
+      }, {
+        "header": {
+          "type": "label", "text": "dict"
+        },
+        "items": [{
+          "type": "label", "text": {
+            "hello": "world"
+          }
+        }, {
+          "type": "button", "text": {}
+        }, {
+          "type": "textfield", "name": "textfield3"
+        }, {
+          "type": "textarea", "name": "textarea3"
+        }]
+      }]
+    }
+  }
+}

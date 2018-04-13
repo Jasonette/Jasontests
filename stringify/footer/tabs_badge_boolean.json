@@ -1,0 +1,17 @@
+{
+  "$jason": {
+    "body": {
+      "footer": {
+        "tabs": {
+          "items": [{
+            "text": 1, "badge": false
+          }, {
+            "text": 2, "badge": true
+          }, {
+            "text": 3, "badge": false
+          }]
+        }
+      }
+    }
+  }
+}

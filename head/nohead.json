@@ -1,0 +1,9 @@
+{
+  "$jason": {
+    "body": {
+      "sections": [{
+        "items": [{ "type": "label", "text": "No head" }]
+      }]
+    }
+  }
+}

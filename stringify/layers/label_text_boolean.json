@@ -1,0 +1,11 @@
+{
+  "$jason": {
+    "body": {
+      "layers": [{
+        "type": "label", "text": false, "style": {
+          "bottom": 20, "right": 20, "width": 50, "background": "#ff0000", "color": "#ffffff"
+        }
+      }]
+    }
+  }
+}

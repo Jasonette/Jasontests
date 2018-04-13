@@ -1,0 +1,11 @@
+{
+  "$jason": {
+    "body": {
+      "header": {
+        "title": {
+          "type": "label", "text": false
+        }
+      }
+    }
+  }
+}

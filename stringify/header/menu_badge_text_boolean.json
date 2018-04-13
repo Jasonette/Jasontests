@@ -1,0 +1,14 @@
+{
+  "$jason": {
+    "body": {
+      "header": {
+        "menu": {
+          "text": "badge",
+          "badge": {
+            "text": true
+          }
+        }
+      }
+    }
+  }
+}

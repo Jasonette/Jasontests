@@ -1,0 +1,13 @@
+{
+  "$jason": {
+    "body": {
+      "footer": {
+        "input": {
+          "textfield": {
+            "placeholder": false
+          }
+        }
+      }
+    }
+  }
+}

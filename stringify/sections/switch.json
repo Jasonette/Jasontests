@@ -1,0 +1,25 @@
+{
+  "$jason": {
+    "body": {
+      "sections": [{
+        "items": [{
+          "type": "switch", "value": true, "name": "first",
+          "action": {
+            "type": "$util.banner",
+            "options": {
+              "description": "{{$get.first}}"
+            }
+          }
+        }, {
+          "type": "switch", "value": false, "name": "second",
+          "action": {
+            "type": "$util.banner",
+            "options": {
+              "description": "{{$get.second}}"
+            }
+          }
+        }]
+      }]
+    }
+  }
+}

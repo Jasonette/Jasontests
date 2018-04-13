@@ -1,0 +1,28 @@
+{
+  "$jason": {
+    "body": {
+      "sections": [{
+        "items": [{
+          "type": "map",
+          "region": {
+            "coord": "40.7197614,-73.9909211",
+            "width": "100",
+            "height": "100"
+          },
+          "pins": [{
+            "title": false,
+            "description": 1234,
+            "coord": "40.7197614,-73.9909211",
+            "style": {
+              "selected": true
+            }
+          }],
+          "style": {
+            "width": "100%",
+            "height": 600
+          }
+        }]
+      }]
+    }
+  }
+}
