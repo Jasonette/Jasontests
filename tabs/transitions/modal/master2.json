@@ -25,12 +25,12 @@
             "url": "https://jasonette.github.io/Jasontests/tabs/transitions/modal/master.json",
           }, {
             "text": "item 2",
-            "image": "https://png.icons8.com/metro/52/000000/2.png"
-            "url": "https://jasonette.github.io/Jasontests/tabs/transitions/modal/master2.json",
+            "image": "https://png.icons8.com/metro/52/000000/2.png",
+            "url": "https://jasonette.github.io/Jasontests/tabs/transitions/modal/master2.json"
           }, {
             "text": "item 3",
-            "image": "https://png.icons8.com/metro/52/000000/3.png"
-            "url": "https://jasonette.github.io/Jasontests/tabs/transitions/modal/master3.json",
+            "image": "https://png.icons8.com/metro/52/000000/3.png",
+            "url": "https://jasonette.github.io/Jasontests/tabs/transitions/modal/master3.json"
           }]
         }
       }
