@@ -15,6 +15,9 @@
       },
       "templates": {
         "body": {
+          "header": {
+            "title": "tabs demo"
+          },
           "sections": [{
             "items": {
               "{{#each items}}": {
