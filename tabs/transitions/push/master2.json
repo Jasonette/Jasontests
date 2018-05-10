@@ -1,0 +1,39 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Master 2 for push transition"
+    },
+    "body": {
+      "header": {
+        "title": "View 2"
+      },
+      "sections": [{
+        "items": [{
+          "type": "label",
+          "text": "Press to push a view",
+          "href": {
+            "url": "https://jasonette.github.io/Jasontests/tabs/transitions/push/slave.json"
+          }
+        }]
+      }],
+      "footer": {
+        "tabs": {
+          "items": [{
+            "text": "item 1",
+            "image": "https://png.icons8.com/metro/52/000000/1.png",
+            "url": "https://jasonette.github.io/Jasontests/tabs/transitions/push/master.json",
+          }, {
+            "text": "item 2",
+            "image": "https://png.icons8.com/metro/52/000000/2.png"
+            "url": "https://jasonette.github.io/Jasontests/tabs/transitions/push/master2.json",
+          }, {
+            "text": "item 3",
+            "image": "https://png.icons8.com/metro/52/000000/3.png"
+            "url": "https://jasonette.github.io/Jasontests/tabs/transitions/push/master3.json",
+          }]
+        }
+      }
+    }
+  }
+}
+

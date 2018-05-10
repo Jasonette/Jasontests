@@ -1,0 +1,18 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Secondary view via modal"
+    },
+    "body": {
+      "header": {
+        "title": "Modal transition from tab view"
+      },
+      "sections": [{
+        "items": [{
+          "type": "label",
+          "text": "Hello world"
+        }]
+      }]
+    }
+  }
+}

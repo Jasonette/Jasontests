@@ -1,0 +1,33 @@
+{
+  "$jason": {
+    "head": {
+      "title": "tabs demo",
+      "data": {
+        "items": [{
+          "title": "nomatch", "url": "nomatch.json"
+        }, {
+          "title": "nourl", "url": "nourl.json"
+        }, {
+          "title": "modal transitions", "url": "transitions/modal/master.json"
+        }, {
+          "title": "push transitions", "url": "transitions/push/master.json"
+        }]
+      },
+      "templates": {
+        "body": {
+          "sections": [{
+            "items": {
+              "{{#each items}}": {
+                "type": "label",
+                "text": "{{title}}",
+                "href": {
+                  "url": "https://jasonette.github.io/Jasontests/tabs/{{url}}"
+                }
+              }
+            }
+          }]
+        }
+      }
+    }
+  }
+}
